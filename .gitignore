@@ -1,5 +1,8 @@
 *-main.c
 0-node
 1-left
+2-right
+4-leaf
+test
 binary_tree_print.c
 test.c
