@@ -3,6 +3,8 @@
 1-left
 2-right
 4-leaf
+13-nodes
 test
 binary_tree_print.c
 test.c
+.vscode/
