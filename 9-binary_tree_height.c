@@ -16,8 +16,8 @@ int max(int a, int b)
 }
 
 /**
- * height - height binary tree
- * @tree:  benary tree
+ * height - counts height of a binary tree
+ * @tree: pointer to binary tree
  * Return: height
  */
 int height(const binary_tree_t *tree)
@@ -28,10 +28,9 @@ int height(const binary_tree_t *tree)
 	return (max(height(tree->left), height(tree->right) + 1));
 }
 
-
 /**
  * binary_tree_height - recursive for binary tree
- * @tree:  benary tree
+ * @tree: binary tree
  * Return: height
  */
 size_t binary_tree_height(const binary_tree_t *tree)
